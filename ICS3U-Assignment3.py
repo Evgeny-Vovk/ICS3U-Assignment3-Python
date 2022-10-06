@@ -2,9 +2,7 @@
 #
 # Created by: Evgeny Vovk
 # Created on: October 2022
-# ICS3U-Assignment2.py File, Octagon calculator in python.
-
-import sys
+# ICS3U-Assignment3.py File, 3X+1 problem in python.
 
 
 def main():
@@ -14,7 +12,7 @@ def main():
 
     # process
     if number < 1:
-        print("\nYou can only use positives for 3X+1 problem")
+        print("\nYou can only use positives for 3X+1 problem.")
         return
 
     while number > 1:
