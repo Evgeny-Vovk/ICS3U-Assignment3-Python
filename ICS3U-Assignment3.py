@@ -5,10 +5,11 @@
 # ICS3U-Assignment3.py File, 3X+1 problem in python.
 
 
-
 def main():
     # input
-    initial_number = int(input("Type in any number that you want to see go through the 3X + 1 loop: "))
+    initial_number = int(
+        input("Type in any number that you want to see go through the 3X + 1 loop: ")
+    )
     number = initial_number
     step = 0
 
